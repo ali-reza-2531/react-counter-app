@@ -1,0 +1,17 @@
+
+$button-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); // Define shadow
+
+button {
+  background-color: #3498db; // Set default button color
+
+  &:hover {
+    background-color: #2980b9; // Change color on hover
+  }
+
+  &:active {
+    background-color: #1f618d; // Change color on click
+  }
+
+  box-shadow: $button-shadow; // Add shadow to the button
+}
+
